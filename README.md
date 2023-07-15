@@ -29,6 +29,7 @@ docker build -t bootcamp .
 docker run -p 8888:8888 --env-file .env -v "$(pwd)/bootcamp:/bootcamp" bootcamp
 # for Windows
 docker run -p 8888:8888 --env-file .env -v "%cd%/bootcamp:/bootcamp" bootcamp
+replace %cd% with full path
 ```
 
 This may take a while for the initial run to build the docker image. Once it is done, this will start a Jupyter server in the docker container, accessible via port 8888. On your host machine, launch your browser https://localhost:8888 to access the Jupyter lab.
