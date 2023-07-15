@@ -33,6 +33,7 @@ replace %cd% with full path
 ```
 
 This may take a while for the initial run to build the docker image. Once it is done, this will start a Jupyter server in the docker container, accessible via port 8888. On your host machine, launch your browser https://localhost:8888 to access the Jupyter lab.
+Ravi:  http://127.0.0.1:8888/lab  ( this will be displayed in the command line ) . localhost will work if it is set in hostfile to be identified as 127.0.0.1
 
 ## GitHub CodeSpace 
 You can run the notebooks remotely on GitHub's CodeSpace, free for a limited number of hours. The repo is set up to do so, with a caveat below. 
